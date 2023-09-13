@@ -1,112 +1,134 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
-          target="_blank"
-          rel="noopener"
-          >pwa</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
-          target="_blank"
-          rel="noopener"
-          >router</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex"
-          target="_blank"
-          rel="noopener"
-          >vuex</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-          >eslint</a
-        >
-      </li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li>
-        <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
-      </li>
-      <li>
-        <a href="https://forum.vuejs.org" target="_blank" rel="noopener"
-          >Forum</a
-        >
-      </li>
-      <li>
-        <a href="https://chat.vuejs.org" target="_blank" rel="noopener"
-          >Community Chat</a
-        >
-      </li>
-      <li>
-        <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-          >Twitter</a
-        >
-      </li>
-      <li>
-        <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
-      </li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li>
-        <a href="https://router.vuejs.org" target="_blank" rel="noopener"
-          >vue-router</a
-        >
-      </li>
-      <li>
-        <a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-devtools#vue-devtools"
-          target="_blank"
-          rel="noopener"
-          >vue-devtools</a
-        >
-      </li>
-      <li>
-        <a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener"
-          >vue-loader</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-          rel="noopener"
-          >awesome-vue</a
-        >
-      </li>
-    </ul>
+  <div class="container my-5 py-5">
+    <!--Section: Design Block-->
+    <section class="mb-10">
+      <div class="row align-items-center">
+        <div class="col-xl-7 mb-5 mb-xl-0">
+          <div class="lightbox">
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <img
+                  class="shadow-4 rounded-5 w-100"
+                  src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                  alt="wooden utensils"
+                />
+              </div>
+              <div class="col-md-6 mb-4">
+                <img
+                  class="shadow-4 rounded-5 w-100"
+                  src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+                  alt="wooden utensils"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-4 mb-xl-0">
+                <img
+                  class="shadow-4 rounded-5 w-100"
+                  src="https://media.istockphoto.com/id/680907176/photo/little-boy-getting-haircut-by-barber-while-sitting-in-chair-at-barbershop.jpg?s=612x612&w=0&k=20&c=pjQ1u-clewaVhuVzJfguXE29upc0-dg79bY4XCpR8t4="
+                  alt="wooden utensils"
+                />
+              </div>
+              <div class="col-md-6 mb-4 mb-xl-0">
+                <img
+                  class="shadow-4 rounded-5 w-100"
+                  src="https://media.istockphoto.com/id/1153438285/photo/woman-at-hair-salon.jpg?s=612x612&w=0&k=20&c=FyHTWvInPUeuMgNMBdDG1765edXLx9eoUKF_iaptvaU="
+                  alt="wooden utensils"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 offset-xl-1 text-center">
+          <h2 class="fw-bold mb-5 pb-2">Our Barber Shop</h2>
+          <p class="lead fw-normal text-muted mb-5">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla tempore pariatur.
+          </p>
+          <p class="lead fw-normal text-muted mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+            commodi consectetur consequuntur eius enim et expedita.
+          </p>
+          <p class="lead fw-normal text-muted mb-0 mb-xl-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
+            commodi consectetur consequuntur eius enim et expedita.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="mb-10">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 mb-3">
+          <h3 class="h1 fw-bold text-decoration-underline mb-2">
+            Our Unique Tools
+          </h3>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            commodi delectus deserunt ea, enim expedita facere fuga illum ipsum
+            maiores neque nostrum odit perferendis quaerat quo quod suscipit ut
+            velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusamus accusantium autem cumque deleniti dignissimos distinctio
+            dolores error id, iure maiores mollitia necessitatibus nulla, odit
+            officia omnis qui similique unde velit!
+          </p>
+        </div>
+        <div class="col-md-6 mb-3">
+          <img
+            src="https://images.unsplash.com/photo-1621607505833-616916c46a25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80"
+            class="img-fluid shadow-lg rounded"
+            alt="img"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Section: Design Block-->
+    <section class="mb-5 mt-5">
+      <h2 class="fw-bold mb-6">Our Team Members</h2>
+      <div class="row justify-content-center text-center align-items-center">
+        <div class="col-md-4 mb-3">
+          <h4>John Doe</h4>
+          <img
+            src="https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFyYmVyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            class="img-fluid rounded-circle w-25 h-50"
+            alt="John Doe"
+          />
+          <p class="grey-text mt-2 h5 mb-2">
+            Barber since 2017, serving the local Lawton area.
+          </p>
+          <a href="#" class="btn btn-outline-primary rounded-pill">
+            Book With Me
+          </a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4>Mike Schultz</h4>
+          <img
+            src="https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFyYmVyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            class="img-fluid rounded-circle w-25 h-50"
+            alt="John Doe"
+          />
+          <p class="grey-text mt-2 h5 mb-2">
+            Barber since 2017, serving the local Lawton area.
+          </p>
+          <a href="#" class="btn btn-outline-primary rounded-pill">
+            Book With Me
+          </a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h4>Erik Flemming</h4>
+          <img
+            src="https://images.unsplash.com/photo-1562004760-aceed7bb0fe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFyYmVyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            class="img-fluid rounded-circle w-25 h-50"
+            alt="John Doe"
+          />
+          <p class="grey-text mt-2 h5 mb-2">
+            Barber since 2017, serving the local Lawton area.
+          </p>
+          <a href="#" class="btn btn-outline-primary rounded-pill">
+            Book With Me
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -131,8 +153,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
